@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clothing & Shoes Shop</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+    }
+
+    nav {
+      margin: 20px;
+    }
+
+    nav button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+    }
+
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #222;
+      color: white;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ModeAura</h1>
+    <p>Click on any item to buy from Amazon!</p>
+  </header>
+
+  <nav>
+    <button onclick="history.back()">Back</button>
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="window.scrollBy(0, 500)">Next</button>
+  </nav>
+
+  <div class="gallery">
+    <!-- Repeat 50 items -->
+    <!-- You can replace image URL and Amazon link -->
+    <!-- Only first 3 shown here, rest below -->
+    <div class="item">
+      <a href=https://www.amazon.in/Casio-Vintage-Digital-Watch-B640WGG-9DF-D188/dp/B088HGR2FV/ref=sr_1_44?dib=eyJ2IjoiMSJ9.gxP1Fnyk4HKtAlxdwV8Gqw5QrUQDODxCRFTHpVswuecbfNb10g_5JBsNv8qK-MA37vJ0_PIgl96diYDDUKaWdd4Mjt0TJAiqfe5ogs6ZGIwjA1xQZ-tPVw93tDg1xGcP4wADmMlJcQCGulgdlft5zKJTxBh3qKIJ1jP1YmcX_IpBRVBccl5BuXhFK0AQfEWIsvu_jrPpMH3d_KbYrRBFZNjrT-PCLBs-DUpgLNw999qVcgA04mSPycs_2nR4WMr8kJTy4DI5f3xXAwlrtITjID9h0nslPt1oQ11hMFplew0.LUNGcy7KjElfQ0-D-JPclYc1tYl2NRAy4-yJhWdLX20&dib_tag=se&pf_rd_i=7459781031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-22&qid=1753372997&refinements=p_89%3ACasio&rnid=3837712031&s=watches&sr=1-44 target="_blank">
+        <img src="C:\Users\csai4\Downloads\casiowatchamazon%png.png" alt="Shirt 1">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/U-S-POLO-ASSN-T-Shirt-USTSH1131_Orange/dp/B0B8NC2CW5/ref=sr_1_15?crid=1ZB0JGF8QAAN5&dib=eyJ2IjoiMSJ9.UTRj3O-MmsxNAzGlB2j7-fdkfObAZBK7ovnKqMPATohssHgOUT7BVAPac6qhqSnBKIzITT7lSpFQZW_evmxMHrCAt0U4V6UgNoRDiYpNKdspIWYcBjIS8qRBA47zt3d89JX9LvsftEszQ8I1f9GGQ2-z8OQWdoe-Z9f7jAySumwZ6fVKzozL5erQYRqZsM8IA4T4aJmptlXRE1k-tiRfq6cDWzh8Zp3jVgd3JjWQKejM7pKF85wpG16xtCwefB6ROlL8p1ZjgsQwY0ntXqCRowMSI8Cn_RpUnXXgZoUc5AU.mIntJqONr7Pyq3B8gmptcmuoksJqimXh2PadrzvM8Cc&dib_tag=se&pf_rd_i=7459781031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-22&qid=1753373198&refinements=p_85%3A10440599031%2Cp_n_pct-off-with-tax%3A2665401031%2Cp_89%3AU.S.+POLO+ASSN.&rnid=3837712031&rps=1&s=apparel&sprefix=allen+sol%2Cfashion%2C219&sr=1-15 target="_blank">
+        <img src="C:\Users\csai4\Downloads\uspoloassnamazon%png.png" alt="Shirt 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/Paralians-Printed-Striped-Stylish-Comfortable/dp/B0FB98CPBG target="_blank">
+        <img src="C:\Users\csai4\Downloads\shirtsamazon%png.jpg" alt="Shoes 1">
+      </a>
+    </div>
+
+    <!-- Remaining 47 items (example placeholders) -->
+    <!-- Replace links and image URLs as needed -->
+    <!-- Use any online clothing image or Amazon product image -->
+    <!-- Here's a quick loop using placeholder -->
+    <!-- Repeat this block with updated src & links -->
+    <!-- I'll just continue placeholders till 50 -->
+
+    <!-- Auto-generated Placeholder -->
+    <!-- You can replace these with real Amazon links and images -->
+    <!-- Loop for images 4 to 50 -->
+    <!-- START -->
+    <!-- Loop inserted via copy for example -->
+    <!-- START LOOP -->
+    <!-- Loop from 4 to 50 -->
+    <!-- I will show them like this: -->
+    <!-- You can paste this 47 more times with different links/images -->
+    <!-- Here's a quick batch for 4 to 10 -->
+    <div class="item">
+      <a href=https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChsSEwjIz4-R8tWOAxXwqWYCHc2_AMcYACICCAEQHBoCc20&co=1&ase=2&gclid=Cj0KCQjws4fEBhD-ARIsACC3d2-sfA8QQyekUotbpKLge8ItLqTsuOa-5GlS4Q1RSwqFwRoSXTbM64MaAoW1EALw_wcB&ohost=www.google.com&cid=CAESeuD2JR-ZPKVLaxNCd403BfpxPLuD7fyXR_nJrq-FKPZEj9ARek0HLq0DjOZcbeEPx4HWfHV4zH_CyqG_cBfQUhtjikc3DSDTr7UqqcSXYqpSS8cKDdVqpeGraN1QySe3NB5obf71uOg_JouT60MjdmEccI9GWbuINXps&category=acrcp_v1_40&sig=AOD64_3UKesQtpfmKsz2zhkHUkd8HNSIRw&ctype=5&q=&nis=4&ved=2ahUKEwiJpYuR8tWOAxWQe2wGHUBRJ2QQ9aACKAB6BAgKECU&adurl= target="_blank">
+        <img src="C:\Users\csai4\Downloads\shoesamazon%png.webp" alt="Shirt 4">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/PONO-Elegant-Leather-Comfortable-Anti-Slip/dp/B0F3V4VTK8 target="_blank">
+        <img src="C:\Users\csai4\Downloads\formalshoesamazon%png.jpg" alt="Shirt 5">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChsSEwiK35_089WOAxU_bg8CHX5vD9wYACICCAEQIRoCdGI&co=1&ase=2&gclid=Cj0KCQjws4fEBhD-ARIsACC3d29QYzU4baW0aiUXmTxwwJyw8DeG0QyCs8womXhbIe8tL_U2wfCEFTwaAnEZEALw_wcB&ohost=www.google.com&cid=CAESeuD2aK3dfsOW3yzqIk-zMhz2JBlTErrhyiOKLDQRd-sMpfHYyxtvr007WAJVWAeREcqV38cvYhHFppLXtzNS5idSqY3v6YihIohQICOa-zAgAi7PHWKDxmxLrwOyw50ZBQIF2UBT76bB3XCpneLyj8qMKpXD86S1Jlkh&category=acrcp_v1_40&sig=AOD64_33SZU4lWrwhDj7DJzkO7jpUA8HOA&ctype=5&q=&nis=4&ved=2ahUKEwjq65f089WOAxWAafUHHbxmJ-8Q9aACKAB6BAgJEB4&adurl= target="_blank">
+        <img src="C:\Users\csai4\Downloads\suitflipkart%png.webp" alt="Shoes 2">
+      </a>
+    </div>
+   <div class="item">
+      <a href=https://www.amazon.in/s/ref=QANav11Expander_en_IN_6?pf_rd_r=X57Y5CHVK5R0TVKE6ARK&pf_rd_p=21d0f113-872a-4cc4-948c-7f0350e5bb28&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-22&pf_rd_t=&pf_rd_i=6648217031&i=luggage&rh=n%3A2917431031%2Cp_36%3A50000-%2Cp_123%3A418063&s=exact-aware-popularity-rank&dc&hidden-keywords=skybags&qid=1725549533&rnid=1318502031&ref=sr_st_exact-aware-popularity-rank&ds=v1%3A%2BEme%2FT530%2F2y9DLfEqeHSqr26ttPdJuYCGhXEnAbrVA target="_blank">
+        <img src="C:\Users\csai4\Downloads\skybagsshopping%png.png"alt="Shoes 2">
+      </a>
+    </div>
+   <div class="item">
+      <a href=https://www.amazon.in/s/ref=QANav11Expander_en_IN_6?pf_rd_r=0V0MKBRSRN29BX4JPBB0&pf_rd_p=60cdc3b1-24c1-48c7-92e3-90654853d18d&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-19&pf_rd_t=&pf_rd_i=6648217031&bbn=43520450031&rh=n%3A43520450031%2Cp_72%3A1318476031&dc&pf_rd_i=6648217031&pf_rd_i=99975667031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=661251e4-e595-40a5-8aaa-3dafcbd194e0&pf_rd_p=Preview-Of-ea0099b3-e23a-4a46-ab78-500994594362&pf_rd_r=0KHVQ5WET8RCADCZEZSC&pf_rd_r=XZHBKMCEVBHQAA717CMW&pf_rd_s=merchandised-search-17&pf_rd_s=mobile-hybrid-14&pf_rd_t=30901&qid=1720003694&rnid=1318475031&ref=lp_43520450031_nr_p_72_0 target="_blank">
+        <img src="C:\Users\csai4\Downloads\trimmer%png.jpg"alt="Shoes 2">
+      </a>
+    </div>
+   <div class="item">
+      <a href=https://www.amazon.in/s/ref=QA6up10Expander_en_IN_7?pf_rd_r=0V0MKBRSRN29BX4JPBB0&pf_rd_p=0de67cdc-2f00-4105-a9e4-af0fb1275d09&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-25&pf_rd_t=&pf_rd_i=6648217031&i=shoes&bbn=1983396031&rh=n%3A1983396031%2Cp_89%3ABata%2Cp_72%3A1318477031&s=shoes&dc=&qid=1728575463&rnid=4516629031&ref=sr_nr_p_36_0_0&low-price=500&high-price=700 target="_blank">
+        <img src="C:\Users\csai4\Downloads\batashoes%png.png"alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/s/ref=QA6up10Expander_en_IN_9?pf_rd_r=0V0MKBRSRN29BX4JPBB0&pf_rd_p=0de67cdc-2f00-4105-a9e4-af0fb1275d09&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-25&pf_rd_t=&pf_rd_i=6648217031&i=apparel&bbn=1968126031&rh=n%3A1968126031%2Cp_85%3A10440599031%2Cp_123%3A232761&dc&ds=v1%3AP7hspYwuANvVO5n6xi3MlZBWHm8qPj4jWt%2FqlYWqS94&qid=1729237822&rnid=91049095031&ref=sr_nr_p_123_4target="_blank">
+        <img src="C:\Users\csai4\Downloads\vanhueseninnerwear%png.png"  alt="Shoes 2">
+      </a>
+    </div>
+   <div class="item">
+      <a href=https://www.amazon.in/s/ref=QA6up10Expander_en_IN_11?pf_rd_r=0V0MKBRSRN29BX4JPBB0&pf_rd_p=0de67cdc-2f00-4105-a9e4-af0fb1275d09&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-25&pf_rd_t=&pf_rd_i=6648217031&bbn=27915138031&rh=n%3A27915138031%2Cp_89%3ASWADESI+STUFF&dc&qid=1720556863&rnid=3837712031&ref=lp_27915138031_nr_p_89_22target="_blank">
+        <img src="C:\Users\csai4\Downloads\swadesiwatch%png.png" alt="Shoes 2">
+      </a>
+    </div>
+      <div class="item">
+      <a href=https://www.amazon.in/Lymio-Cargo-Cotton-Cargos-Cargo-46-49/dp/B0DF79D1JS?ref=dlx_66482_dg_dcl_B0DF79D1JS_dt_mese30_c2_pi&pf_rd_r=QMCYRQYEG64PQQAXXV6C&pf_rd_p=aa59313f-204d-44e2-8a57-e1e0e77c35c2 target="_blank">
+        <img src="C:\Users\csai4\Downloads\cottoncargo%png.jpg" alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/Lymio-T-Shirt-Polo-Shirt-POLO-52-Olivegreen-L/dp/B0DRFN3213?ref=dlx_66482_dg_dcl_B0DRFN3213_dt_mese30_c2_pi&pf_rd_r=QMCYRQYEG64PQQAXXV6C&pf_rd_p=aa59313f-204d-44e2-8a57-e1e0e77c35c2 target="_blank">
+        <img src="C:\Users\csai4\Downloads\lymiontshirts%png.jpg" alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo0MTQ3NzYxMzA4OTAwODAzOjE3NTM0MjYwMTY6c3BfYXRmX2Jyb3dzZToyMDA2MzI3MjI1NjgwNjo6MDo6&url=%2FAlan-Jones-Clothing-Joggers-Navy_XS%2Fdp%2FB08XVRGWWR%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.Jk57liA1iwW5diVexe81Cw7UIM-99apEhiGNLumzPxlKu-MCRBdX1ZSlkptZwSvx3gPrUVlhrEgNq7UIeFm7vmYPaU_6E8BOwhTEDq1mwTmFaN1ZVEVzpidtVPWKdGlMynjYp4VzYbhz8FeE03Uc-SyUzIfw-O_a8J2laEytwZMZAT7d0ZerDcrdSvLsc-2C6pLcdTtEMcErNOgjdAfuFsKcyIm2LqNc4vewfd6AFideZSF0ESvQbXV11Kn8_AkH5Y1MQtNfnPGpkVwIfVopeHJ1PZcgqfKlRCk98Tq7QHA.nXzOPTCqFtGsZWK0Zetdpwv_PBo9XnAJkJ4p_OIbmHo%26dib_tag%3Dse%26qid%3D1753426016%26s%3Dapparel%26sr%3D1-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfYnJvd3Nl%26psc%3D1&sp_cr=DUB target="_blank">
+        <img src="C:\Users\csai4\Downloads\trackpants%png.webp"alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NjI1OTQ5Mzc5MTU2Mzg3OjE3NTM0MjYxMjQ6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDYxNzU5NDY5ODIzMjo6MDo6&url=%2FCampus-Denver-L-Gry-Sneaker-India%2Fdp%2FB0BD5BDMYB%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fadgrpid%3D58575245483%26content-id%3Damzn1.sym.0ec29fff-e589-42c1-a226-6d7b30a9905a%253Aamzn1.sym.0ec29fff-e589-42c1-a226-6d7b30a9905a%26cv_ct_cx%3Dsneakers%2Bfor%2Bmens%26ext_vrnc%3Dhi%26hvadid%3D397754737860%26hvdev%3Dc%26hvlocphy%3D9300762%26hvnetw%3Dg%26hvqmt%3De%26hvrand%3D15436129104985434458%26hvtargid%3Dkwd-308191137098%26hydadcr%3D22287_1978663%26keywords%3Dsneakers%2Bfor%2Bmens%26mcid%3D639186252c5a3e53b037c228ac24bf32%26pd_rd_i%3DB0BD5BDMYB%26pd_rd_r%3D4c6bf364-b5e2-41c3-a479-af8eb35b245f%26pd_rd_w%3DCHIG1%26pd_rd_wg%3DBUvG5%26pf_rd_p%3D0ec29fff-e589-42c1-a226-6d7b30a9905a%26pf_rd_r%3DTGX04VWFDJFB7JSMXBMF%26qid%3D1753426124%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-1-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB target="_blank">
+        <img src="C:\Users\csai4\Downloads\sneakers%png.webp" alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3NDY4ODQwOTIzODEzNDQzOjE3NTM0MjYxMjQ6c3BfbXRmOjMwMDM0NTAzMDg4MjUzMjo6MDo6&url=%2FASIAN-Synthetic-Lightweight-Comfortable-Boston-13%2Fdp%2FB0CVX89B2H%2Fref%3Dsr_1_24_sspa%3Fadgrpid%3D58575245483%26dib%3DeyJ2IjoiMSJ9.W2-p9Ftn1iJXC0yHc4pAgbbmUB2Sl7CKdW1gorTu0q704XzaTQJX1_I3TQxNOu5W9BWmkM_Y3MLispaJ4YAwqZuE8a1Z888IKt1VQ1J_pKR4MUFrOXgo_04GDIr2QlTcASALMMoplK_EQkEfCVOnVQwEYOJwx0006rw9WGRodtIN5ICX4jw-GsWcZMJBQLJ7HaPB2RZiSnxWnt6wOm-WHwmhwxDYvxh6JemWOn_Z0Wvd-Suzk7omScfoc4aCsqDZVrRBN2Au_J5HaxNyl48_5ZCsmckeDEqGFgwm5xlANDE.1dS6fFgRQ1TzKvciZyDwwwpXx3W0pMi80y9dXnO-HSw%26dib_tag%3Dse%26ext_vrnc%3Dhi%26hvadid%3D397754737860%26hvdev%3Dc%26hvlocphy%3D9300762%26hvnetw%3Dg%26hvqmt%3De%26hvrand%3D15436129104985434458%26hvtargid%3Dkwd-308191137098%26hydadcr%3D22287_1978663%26keywords%3Dsneakers%2Bfor%2Bmens%26mcid%3D639186252c5a3e53b037c228ac24bf32%26qid%3D1753426124%26sr%3D8-24-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB target="_blank">
+        <img src="C:\Users\csai4\Downloads\bountyshoe%png.jpg"alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/Lux-Cozi-Mens-Cotton-8904209871541_COZI_COL_RN_85_Assorted/dp/B072NBHL7K/ref=sr_1_7?adgrpid=60468375313&dib=eyJ2IjoiMSJ9.HD_LqvCoWxv5MP0COuvyeUlEAJeUA3Q-Um8o32u13Z6zmTf1yUImc2U_SOqWHWnkzHNyq87C8pN4DTq-4o5bo8E2B2HRAVfYHkamj8O45OhGsrCqDQb6G2u8SMY-UA7QGO-9pBY2d2yg4VtFXSMK6Z1kzky1xQm8RYqJM_Chnb0kqtR2pIF8m9ZvIr696A0fKQCf9S7921lHInTUvFgqfDx-7MjuQvQRW32CpC6j6BXgDOpAWzG2Io4dx62nnvAcdpWLHJkVWTSEjDEZIU8kjbfjnO5sprzV-NbTuFHcf8Y.a10XmGNGtJQ2svLberM8mrlm9lXFlwUbAddOCYzssGk&dib_tag=se&ext_vrnc=hi&hvadid=618220189837&hvdev=c&hvlocphy=9300762&hvnetw=g&hvqmt=e&hvrand=13715442662588739717&hvtargid=kwd-390811656625&hydadcr=23844_2322789&keywords=cut+baniyan+for+men&mcid=4e78c05c0bb937958a07801fb043a1a9&qid=1753426418&sr=8-7target="_blank">
+        <img src="C:\Users\csai4\Downloads\luxcoz%pngi.webp"alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.flipkart.com/tripr-full-sleeve-solid-men-sweatshirt/p/itmdd5fe63548522?pid=SWSH58HDMPZ9P2YX&lid=LSTSWSH58HDMPZ9P2YXYBI2ZI&marketplace=FLIPKART&store=clo%2Fqvw%2F64a%2Fvui&srno=b_1_2&otracker=browse&fm=organic&iid=en_iqARRpE4mgKyuA-53wGurcvvxG51O_i0a_dlRgJ-4is3L38ekyd8FBm6ha2RIyqkTerow_gKfLcCBsOAE4Y9D_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=browse&ppn=browse&ssid=8usb9nerf40000001753426593647 target="_blank">
+        <img src="C:\Users\csai4\Downloads\swetshirt%png.webp" alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.flipkart.com/plus91-full-sleeve-solid-men-sweatshirt/p/itm9851b7375650d?pid=SWSGKC9F6QKXRHPR&lid=LSTSWSGKC9F6QKXRHPRHGUWU5&marketplace=FLIPKART&store=clo%2Fqvw%2F64a%2Fvui&srno=b_1_6&otracker=browse&fm=organic&iid=en_iqARRpE4mgKyuA-53wGurcvvxG51O_i0a_dlRgJ-4iu0jE6qNG8iyyl1dkxsksIZVT9qJYbS36-E90EljFSUjw%3D%3D&ppt=browse&ppn=browse&ssid=8usb9nerf40000001753426593647target="_blank">
+        <img src="C:\Users\csai4\Downloads\fasttrack%png.webp" alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.titaneyeplus.com/product/black-aviator-sunglasses-for-men-and-women-from-fastrack-p523bk3pv target="_blank">
+        <img src="C:\Users\csai4\Downloads\plus91%png.webp" alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.titaneyeplus.com/product/green-round-sunglasses-for-men-and-women-from-tees-by-fastrack-m8017gr2v target="_blank">
+        <img sr="C:\Users\csai4\Downloads\sunglasses%png.webp".webp"alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/Muuchstac-Face-Wash-100-Ml/dp/B07KB1Y75J target="_blank">
+        <img src="C:\Users\csai4\Downloads\mustache%png.jpg"alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.vega.co.in/ball-trimmer-for-men.html target="_blank">
+        <img src="C:\Users\csai4\Downloads\vegatrimmer%png.webp" alt="Shoes 2">
+      </a>
+    </div>
+    <div class="item">
+      <a href=https://www.amazon.in/Zombom-Combo-Cotton-Sleeve-Straight/dp/B0D9GSHWXN/ref=sr_1_19?dib=eyJ2IjoiMSJ9.coA-XnrpfqaMT6JvzIj25YCrTmsVZo-8sG1tI3cU6gR7jqNuWg6ABgpRAJtraOExzazxwx-YWgx9lHE-gzs65Fcu7Dfi0YXS6Fz_w0-Emihn_oXIPzwj2l3_BF3Us6CmbkqJkljgdO0MgLj_1midiQAgD1PLvdEdL3TrvZLyJuykYaOFng8f0zSL8LeiOjLh5ohsVNv2mUZgnFBigjVpd1xqLXR3jCYybkVx0Y7ZdaXvFRsRRiROoXSZ3OOKptWMHgSBQ8-LbXNWjIBz8tsJtkBy3isrekiFYHWWNV6yrSU.ZGGPMRViggmXbS-VcaUMb8rLHSp_W0MgIuaV0bHBjyQ&dib_tag=se&keywords=combo+suit+for+men&qid=1753427474&sr=8-19 target="_blank">
+        <img src="C:\Users\csai4\Downloads\zombom%png.webp" alt="Shoes 2">
+      </a>
+    </div>
+    <!-- Keep pasting till 50 items -->
+
+    <!-- END -->
+
+  </div>
+
+  <footer>
+    <h3>Contact Us</h3>
+    <p>Email: Csai4620gmail.com</p>
+    <p>Phone: +91-7671947004</p>
+    <p>&copy; Charan's Fashion</p>
+  </footer>
+
+</body>
+</html>
